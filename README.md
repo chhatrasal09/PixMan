@@ -1,6 +1,6 @@
 # PixMan
 
-PixMan is a basic image editing app. The app has following features:
+PixMan is a powerful image editing app for Android which helps in applying a few image operations on a selected image. The app has following features:
 #### Features
 The user can perform the following action on an image : 
 - Flip image vertically.
