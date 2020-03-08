@@ -142,7 +142,7 @@ class EditorActivity : AppCompatActivity() {
                 "image.jpg"
             )
             val outputStream = FileOutputStream(file)
-            mTransformedImage?.compress(Bitmap.CompressFormat.JPEG, 100, outputStream)
+            mTransformedImage?.compress(Bitmap.CompressFormat.PNG, 100, outputStream)
             Toast.makeText(this, "File saved to gallery", Toast.LENGTH_LONG).show()
             finish()
         } else {
